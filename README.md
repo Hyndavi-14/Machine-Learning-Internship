@@ -16,11 +16,11 @@ Build a predictive model to classify permits as likely approved or rejected base
 
 ## Dataset
 
-Source: Building permits dataset (San Francisco, CA)
+**Source:** Building permits dataset (San Francisco, CA)
 
-Size: 198,900 entries, 43 columns
+**Size:** 198,900 entries, 43 columns
 
-Key Columns Used:
+**Key Columns Used:**
 
 Permit Type
 
@@ -38,19 +38,19 @@ Neighborhoods - Analysis Boundaries
 
 ## Tools & Technologies
 
-**Programming Languages:** Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+**Programming Languages:**     Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
 
-**Data Visualization:** Matplotlib, Seaborn, Boxplots, Pie charts, Bar charts
+**Data Visualization:**        Matplotlib, Seaborn, Boxplots, Pie charts, Bar charts
 
-**Data Handling & Analysis:** Pandas, Excel-style operations, date parsing
+**Data Handling & Analysis:**  Pandas, Excel-style operations, date parsing
 
-**Machine Learning:** Random Forest Classifier (scikit-learn)
+**Machine Learning:**          Random Forest Classifier (scikit-learn)
 
-**Environment:** Google Colab, GitHub for version control
+**Environment:**               Google Colab, GitHub for version control
 
 ## Process & Workflow
 
-**1. Data Loading & Inspection**
+**1. Data Loading & Inspection:**
 
 Loaded CSV dataset into Python using Pandas.
 
@@ -58,7 +58,7 @@ Checked column types, missing values, and dataset statistics.
 
 Identified mixed data types and missing values in several columns.
 
-**2. Data Cleaning & Transformation**
+**2. Data Cleaning & Transformation:**
 
 Selected relevant columns for analysis.
 
@@ -68,7 +68,7 @@ Converted date columns to datetime format.
 
 Extracted Year and Month from relevant date columns for trend analysis.
 
-3. Exploratory Data Analysis (EDA)
+**3. Exploratory Data Analysis (EDA):**
 
 Visualized number of permits issued per year to identify temporal trends.
 
@@ -78,19 +78,19 @@ Created bar plots, pie charts, and boxplots for categorical and numerical variab
 
 Investigated estimated costs across permit types using boxplots.
 
-4. Feature Engineering
+**4. Feature Engineering:**
 
 Converted Current Status into a binary target variable (Approval) for machine learning:
 
-Issued → 1 (Approved)
+Issued → **1** (Approved)
 
-Others → 0 (Not Approved)
+Others → **0** (Not Approved)
 
 Selected key features for model training: Zipcode, Year, Estimated Cost.
 
-5. Machine Learning Modeling
+**5. Machine Learning Modeling:**
 
-Split dataset into training (80%) and testing (20%) sets.
+Split dataset into training (**80%**) and testing (**20%**) sets.
 
 Trained a Random Forest Classifier to predict permit approval.
 
