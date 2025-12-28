@@ -49,7 +49,8 @@ Neighborhoods - Analysis Boundaries
 **Environment:** Google Colab, GitHub for version control
 
 ## Process & Workflow
-1. Data Loading & Inspection
+
+**1. Data Loading & Inspection**
 
 Loaded CSV dataset into Python using Pandas.
 
@@ -57,7 +58,7 @@ Checked column types, missing values, and dataset statistics.
 
 Identified mixed data types and missing values in several columns.
 
-2. Data Cleaning & Transformation
+**2. Data Cleaning & Transformation**
 
 Selected relevant columns for analysis.
 
